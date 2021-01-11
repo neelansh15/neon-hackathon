@@ -24,6 +24,30 @@
 .custom-shape-divider-bottom-1610364999 .shape-fill {
     fill: #060314;
 }
+/* End of Custom Shape Divider. Source: https://www.shapedivider.app/ */
+
+/* Shape Divider 2 */
+.custom-shape-divider-top-1610375846 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1610375846 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 38px;
+}
+
+.custom-shape-divider-top-1610375846 .shape-fill {
+    fill: #060314;
+}
+/* End of Custom Shape Divider */
 
 html {
    font-size: 16px; /* Browser Default */
@@ -94,8 +118,12 @@ button.btn-neon:hover {
    html {
       font-size: 12px;
    }
+   section:nth-of-type(2){
+       padding-bottom: 2rem;
+   }
    button.neon {
       width: 50%;
+      font-size: 1.4rem;
    }
    .first-column {
       background-image: url(../img/IsometricOfficeDesk.png);
@@ -106,6 +134,9 @@ button.btn-neon:hover {
    .version{
        font-size: 4rem;
        padding: 1.5rem;
+   }
+   p{
+       font-size: 1.2rem;
    }
 }
 
@@ -120,6 +151,9 @@ button.btn-neon:hover {
       animation-duration: 1s;
       animation-iteration-count: infinite;
       animation-direction: alternate;
+   }
+   .margin-left-md{
+       margin-left: 1rem;
    }
 }
 
