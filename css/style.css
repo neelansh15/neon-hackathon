@@ -2,6 +2,29 @@
     border: 2px solid red;
 } */
 
+/* Shape Divider */
+.custom-shape-divider-bottom-1610364999 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    z-index: -3;
+}
+
+.custom-shape-divider-bottom-1610364999 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 500px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1610364999 .shape-fill {
+    fill: #060314;
+}
+
 html {
    font-size: 16px; /* Browser Default */
 }
@@ -19,6 +42,10 @@ body {
 
 section {
    min-height: 100vh;
+}
+
+section:first-of-type{
+    position: relative;
 }
 
 section:nth-of-type(2) {
@@ -53,6 +80,8 @@ button.neon:hover {
     color: #060418;
     background-color: #00c3ff;
     height: fit-content;
+    
+    box-shadow: 0 0 1.5rem 0 #00c3ff;
 }
 
 @media only screen and (max-width: 768px) {
